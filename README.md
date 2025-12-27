@@ -42,7 +42,7 @@ project/
 │
 ├── generate_dag.py
 ├── run_debate.py
-└── README.md
+
 ```
 
 
@@ -68,11 +68,10 @@ project/
 ### Python Dependencies
 Install required packages using:
 
-```bash
 pip install -r requirements.txt
 
-
 ---
+
 
 ## Running the Program
 
