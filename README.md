@@ -29,9 +29,11 @@ project/
 │   ├── memory_node.py
 │   ├── judge_node.py
 │   ├── logger_node.py
-│   └── user_input_node.py
+│   ├── user_input_node.py
+|   └── summarise_node.py
 │
 ├── config/
+|   ├── settings.py
 │   └── personas.py
 │
 ├── logs/
@@ -39,6 +41,10 @@ project/
 │
 ├── tests/
 │   └── test_memory.py
+|
+├── utils/
+│   └── llm_client.py
+|
 │
 ├── generate_dag.py
 ├── run_debate.py
