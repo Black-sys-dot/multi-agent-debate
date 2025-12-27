@@ -59,6 +59,21 @@ project/
 
 ---
 
+## Requirements
+
+### Software Requirements
+- Python 3.9 or higher
+- pip (Python package manager)
+
+### Python Dependencies
+Install required packages using:
+
+```bash
+pip install -r requirements.txt
+
+
+---
+
 ## Running the Program
 
 Run the system using:
