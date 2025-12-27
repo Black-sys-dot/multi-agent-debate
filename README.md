@@ -21,27 +21,30 @@ All components are modular and designed to reflect a clean multi-agent architect
 
 ## Project Structure
 
+```
 project/
 ├── nodes/
-│ ├── agent_node.py
-│ ├── controller_node.py
-│ ├── memory_node.py
-│ ├── judge_node.py
-│ ├── logger_node.py
-│ └── user_input_node.py
+│   ├── agent_node.py
+│   ├── controller_node.py
+│   ├── memory_node.py
+│   ├── judge_node.py
+│   ├── logger_node.py
+│   └── user_input_node.py
 │
 ├── config/
-│ └── personas.py
+│   └── personas.py
 │
 ├── logs/
-│ └── debate_log_<timestamp>.json
+│   └── debate_log_<timestamp>.json
 │
 ├── tests/
-│ └── test_memory.py
+│   └── test_memory.py
 │
 ├── generate_dag.py
 ├── run_debate.py
 └── README.md
+```
+
 
 ---
 
